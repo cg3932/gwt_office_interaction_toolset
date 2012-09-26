@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+		<!--                                                               -->
+		<!-- Consider inlining CSS to reduce the number of requested files -->
+		<!--                                                               -->
+		<link type="text/css" rel="stylesheet" href="ProgShortcut.css">
+	
+		<!--                                           -->
+		<!-- Any title is fine                         -->
+		<!--                                           -->
+		<title>Wrapper HTML for ProgShortcut</title>
+
+		<!--                                           -->
+		<!-- This script loads your compiled module.   -->
+		<!-- If you add any GWT meta tags, they must   -->
+		<!-- be added before this line.                -->
+		<!--                                           -->
+		<script language="javascript" src="progshortcut/progshortcut.nocache.js"></script>
+		
+	</head>
+
+	<!--                                           -->
+	<!-- The body can have arbitrary html, or      -->
+	<!-- we leave the body empty because we want   -->
+	<!-- to create a completely dynamic ui         -->
+	<!--                                           -->
+	<body>
+
+		<!-- OPTIONAL: include this if you want history support -->
+		<iframe id="__gwt_historyFrame" style="width:0;height:0;border:0"></iframe>
+		<h1>Web Application Starter Project</h1>
+
+	<table align="center">
+	  <tr>
+	    <td colspan="2" style="font-weight:bold;">Program Shortcut Tool Demo:</td>        
+	  </tr>
+	  <tr>
+	    <td colspan="2" id="sendButtonContainer"></td>
+	  </tr>
+	</table>
+
+	</body>
+</html>
